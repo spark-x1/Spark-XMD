@@ -15,21 +15,21 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",     // Bot session ID
     PREFIX: getConfig("PREFIX") || ".",           // Command prefix
     CHATBOT: getConfig("CHATBOT") || "on",        // Chatbot mode on/off
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "HUNCHO-XMD",  
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "SPARK-XMD",  
     MODE: getConfig("MODE") || process.env.MODE || "public",  
-    REPO: process.env.REPO || "https://github.com/devhuncho/HUNCHO-XMD",  
+    REPO: process.env.REPO || "SPARK-XMD",  
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  
 
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "254111385747",  
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Huncho",  
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "SPARK-XMD",  
     DEV: process.env.DEV || "254111385747",  
     DEVELOPER_NUMBER: "254111385747@s.whatsapp.net",  
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",  
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",  
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "Huncho XMD viewed your status",  
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "SPARK-XMD viewed your status",  
     READ_MESSAGE: process.env.READ_MESSAGE || "false",  
     REJECT_MSG: process.env.REJECT_MSG || "Calls are not allowed on this number.",  
 
@@ -38,7 +38,7 @@ module.exports = {
     OWNER_REACT: process.env.OWNER_REACT || "false",  
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",  
     CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "like,ok,yes,no",  
-    STICKER_NAME: process.env.STICKER_NAME || "huncho",  
+    STICKER_NAME: process.env.STICKER_NAME || "SPARK-XMD",  
     AUTO_STICKER: process.env.AUTO_STICKER || "false",  
 
     // ===== MEDIA & AUTOMATION =====
@@ -59,7 +59,7 @@ module.exports = {
     PM_BLOCKER: process.env.PM_BLOCKER || "true",  
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    DESCRIPTION: process.env.DESCRIPTION || "Powered by Huncho",  
+    DESCRIPTION: process.env.DESCRIPTION || "Powered by SPARK-XMD",  
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",  
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",  
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",  
