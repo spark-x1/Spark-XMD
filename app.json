@@ -1,8 +1,8 @@
 {
-  "name": "HUNCHO-XMD",
-  "description": "A modern JavaScript WhatsApp bot by Dev Huncho",
+  "name": "SPARK-XMD",
+  "description": "A modern JavaScript WhatsApp bot by Dev spark techs",
   "logo": "https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg",
-  "keywords": ["HUNCHO-XMD", "WhatsApp", "Bot", "Node.js"],
+  "keywords": ["SPARK-XMD", "WhatsApp", "Bot", "Node.js"],
   "success_url": "/",
   "stack": "heroku-24",
 
@@ -16,7 +16,7 @@
     "OWNER_NAME": {
       "description": "Bot owner name",
       "required": false,
-      "value": "DEV HUNCHO"
+      "value": "SPARK-XMD"
     },
     "OWNER_NUMBER": {
       "description": "Bot owner number",
@@ -26,12 +26,12 @@
     "BOT_NAME": {
       "description": "Bot name",
       "required": false,
-      "value": "HUNCHO XMD"
+      "value": "SPARK-XMD"
     },
     "DESCRIPTION": {
       "description": "Menu caption",
       "required": false,
-      "value": "© huncho xmd"
+      "value": "© SPARK-XMD"
     },
     "MENU_IMAGE_URL": {
       "description": "Menu image",
@@ -53,7 +53,7 @@
     "STICKER_NAME": {
       "description": "Sticker name",
       "required": false,
-      "value": "huncho xmd"
+      "value": "SPARK-XMD"
     },
 
     "ANTI_DELETE": {
@@ -110,7 +110,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Custom status reply",
       "required": true,
-      "value": "Seen your status by Huncho XMD"
+      "value": "Seen your status by SPARK-XMD"
     },
 
     "AUTO_RECORDING": {
