@@ -92,7 +92,7 @@ async function loadSession() {
         console.log('[⏳] Downloading creds data...');
         console.log('[🔰] Downloading MEGA.nz session...');
         
-        // Remove "POPKID;;;" prefix if present, otherwise use full SESSION_ID
+        // Remove "SPARK;;;" prefix if present, otherwise use full SESSION_ID
         const megaFileId = config.SESSION_ID.startsWith('SPARK;;;') 
             ? config.SESSION_ID.replace("SPARK;;;", "") 
             : config.SESSION_ID;
@@ -454,10 +454,10 @@ if (isBanned) return; // Ignore banned users completely
 	  
   const ownerFile = JSON.parse(fs.readFileSync('./assets/sudo.json', 'utf-8'));  // خواندن فایل
   const ownerNumberFormatted = `${config.OWNER_NUMBER}@s.whatsapp.net`;
-  // بررسی اینکه آیا فرستنده در owner.json موجود است
+  // owner.json
   const isFileOwner = ownerFile.includes(sender);
   const isRealOwner = sender === ownerNumberFormatted || isMe || isFileOwner;
-  // اعمال شرایط بر اساس وضعیت مالک
+  //spark tech
   if (!isRealOwner && config.MODE === "private") return;
   if (!isRealOwner && isGroup && config.MODE === "inbox") return;
   if (!isRealOwner && !isGroup && config.MODE === "groups") return;
@@ -914,7 +914,7 @@ if (isBanned) return; // Ignore banned users completely
             );
         };
 
-        // Status aka brio
+        // status message
         conn.setStatus = status => {
             conn.query({
                 tag: 'iq',
@@ -937,7 +937,7 @@ if (isBanned) return; // Ignore banned users completely
   }
  /* 
   app.get("/", (req, res) => {
-  res.send("POPKID XTR ✅");
+  res.send("SPARK XMD✅");
   });
 */
   app.use(express.static(path.join(__dirname, 'lib')));
